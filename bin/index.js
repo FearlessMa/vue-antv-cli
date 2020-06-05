@@ -20,6 +20,5 @@ if (program.init) {
   spinner.start();
   download("github:FearlessMa/vue-template", process.cwd(), function (err) {
     spinner.succeed("success !");
-    console.log("err: ", err);
   });
 }
