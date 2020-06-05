@@ -1,0 +1,32 @@
+{
+  "name": "@fearless-ma/vue-antv-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "vue-antv-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "auto-commit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fearless-ma/auto-commit": "^1.38.0-stable.1",
+    "commitizen": "^4.1.2",
+    "conventional-changelog-cli": "^2.0.34",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.1.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
+    "prettier": "^2.0.5",
+    "standard-version": "^8.0.0",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^4.0.4"
+  }
+}
